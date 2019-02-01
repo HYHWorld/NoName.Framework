@@ -1,0 +1,9 @@
+F:\WorkPlace\VisualStudio\Core\NoName.Framework\src\NoName.Framework\bin\Debug\netcoreapp2.2\NoName.Framework.deps.json
+F:\WorkPlace\VisualStudio\Core\NoName.Framework\src\NoName.Framework\bin\Debug\netcoreapp2.2\NoName.Framework.dll
+F:\WorkPlace\VisualStudio\Core\NoName.Framework\src\NoName.Framework\bin\Debug\netcoreapp2.2\NoName.Framework.pdb
+F:\WorkPlace\VisualStudio\Core\NoName.Framework\src\NoName.Framework\obj\Debug\netcoreapp2.2\NoName.Framework.csprojAssemblyReference.cache
+F:\WorkPlace\VisualStudio\Core\NoName.Framework\src\NoName.Framework\obj\Debug\netcoreapp2.2\NoName.Framework.csproj.CoreCompileInputs.cache
+F:\WorkPlace\VisualStudio\Core\NoName.Framework\src\NoName.Framework\obj\Debug\netcoreapp2.2\NoName.Framework.AssemblyInfoInputs.cache
+F:\WorkPlace\VisualStudio\Core\NoName.Framework\src\NoName.Framework\obj\Debug\netcoreapp2.2\NoName.Framework.AssemblyInfo.cs
+F:\WorkPlace\VisualStudio\Core\NoName.Framework\src\NoName.Framework\obj\Debug\netcoreapp2.2\NoName.Framework.dll
+F:\WorkPlace\VisualStudio\Core\NoName.Framework\src\NoName.Framework\obj\Debug\netcoreapp2.2\NoName.Framework.pdb
