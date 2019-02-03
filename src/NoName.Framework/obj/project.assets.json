@@ -686,24 +686,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HYH\\.nuget\\packages\\": {},
+    "C:\\Users\\19402\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\WorkPlace\\VisualStudio\\Core\\NoName.Framework\\src\\NoName.Framework\\NoName.Framework.csproj",
+      "projectUniqueName": "F:\\WorkPlace\\VisualStudio\\C#\\Git\\NoName.Framework\\src\\NoName.Framework\\NoName.Framework.csproj",
       "projectName": "NoName.Framework",
-      "projectPath": "F:\\WorkPlace\\VisualStudio\\Core\\NoName.Framework\\src\\NoName.Framework\\NoName.Framework.csproj",
-      "packagesPath": "C:\\Users\\HYH\\.nuget\\packages\\",
-      "outputPath": "F:\\WorkPlace\\VisualStudio\\Core\\NoName.Framework\\src\\NoName.Framework\\obj\\",
+      "projectPath": "F:\\WorkPlace\\VisualStudio\\C#\\Git\\NoName.Framework\\src\\NoName.Framework\\NoName.Framework.csproj",
+      "packagesPath": "C:\\Users\\19402\\.nuget\\packages\\",
+      "outputPath": "F:\\WorkPlace\\VisualStudio\\C#\\Git\\NoName.Framework\\src\\NoName.Framework\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\HYH\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\19402\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
