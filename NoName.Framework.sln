@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildScript", "BuildScript", "{1F6C48AC-5817-4B6D-9CF0-DBD1C2245F04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoName.Framework", "src\NoName.Framework\NoName.Framework.csproj", "{7F02CAA0-C621-4C4D-AB3C-3E96C498B5BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoName.Framework", "src\NoName.Framework\NoName.Framework.csproj", "{7F02CAA0-C621-4C4D-AB3C-3E96C498B5BC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{466678EB-8C24-41C3-A9AA-5DB31E17E15C}"
 	ProjectSection(SolutionItems) = preProject
@@ -14,7 +14,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{466678EB-8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7F1BB890-41D1-4ECA-9AAD-07F2A86F0342}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastleTest", "src\CastleTest\CastleTest.csproj", "{8C9B603E-0EE6-475E-A3D3-A65F07A7AD15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CastleTest", "src\CastleTest\CastleTest.csproj", "{8C9B603E-0EE6-475E-A3D3-A65F07A7AD15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoName.Framework.UnitTest", "test\NoName.Framework.UnitTest\NoName.Framework.UnitTest.csproj", "{F51A255D-8E99-492D-967A-07A33399EDCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,12 +32,17 @@ Global
 		{8C9B603E-0EE6-475E-A3D3-A65F07A7AD15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C9B603E-0EE6-475E-A3D3-A65F07A7AD15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C9B603E-0EE6-475E-A3D3-A65F07A7AD15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F51A255D-8E99-492D-967A-07A33399EDCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51A255D-8E99-492D-967A-07A33399EDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F51A255D-8E99-492D-967A-07A33399EDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F51A255D-8E99-492D-967A-07A33399EDCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8C9B603E-0EE6-475E-A3D3-A65F07A7AD15} = {7F1BB890-41D1-4ECA-9AAD-07F2A86F0342}
+		{F51A255D-8E99-492D-967A-07A33399EDCE} = {7F1BB890-41D1-4ECA-9AAD-07F2A86F0342}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {027223AA-8F40-4D07-BBD4-A644EB0C1BB6}

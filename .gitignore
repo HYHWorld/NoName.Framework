@@ -1,8 +1,9 @@
-.vs
-*.txt
+*.vs
+*.bak
+*.user
 
 #build folder
-**/bin
-**/obj
-
-
+/bin/
+/obj/
+/bin_test/
+/test/

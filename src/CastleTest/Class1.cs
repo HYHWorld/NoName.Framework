@@ -1,6 +1,6 @@
-﻿using System;
-
-namespace CastleTest {
-	public class Class1 {
+﻿namespace CastleTest
+{
+	public class Class1
+	{
 	}
 }

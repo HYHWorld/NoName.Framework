@@ -4,4 +4,20 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\bin\</OutputPath>
+    <DocumentationFile>..\..\bin\NoName.Framework.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\File\Implements\Pdf\" />
+    <Folder Include="Core\File\Implements\Xls\" />
+    <Folder Include="Core\File\Implements\Xml\" />
+    <Folder Include="Core\ObjectContainers\FacilityContainers\" />
+    <Folder Include="Core\Stream\Implements\" />
+    <Folder Include="Dictionary\" />
+    <Folder Include="Proxy\" />
+  </ItemGroup>
+
 </Project>
