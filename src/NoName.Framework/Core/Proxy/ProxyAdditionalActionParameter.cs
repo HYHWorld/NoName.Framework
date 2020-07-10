@@ -2,30 +2,30 @@
 
 namespace NoName.Framework.Core.Proxy
 {
-    public class ProxyAdditionalActionParameter
-    {
-        private readonly IDictionary<string, object> _parameters;
+	public class ProxyAdditionalActionParameter
+	{
+		private readonly IDictionary<string, object> _parameters;
 
-        public ProxyAdditionalActionParameter()
-        {
-            _parameters = new Dictionary<string, object>();
-        }
+		public ProxyAdditionalActionParameter()
+		{
+			this._parameters = new Dictionary<string, object>();
+		}
 
-        public object this[string key]
-        {
-            get => _parameters[key];
-            set => _parameters[key] = value;
-        }
+		public object this[string key]
+		{
+			get => this._parameters[key];
+			set => this._parameters[key] = value;
+		}
 
-        public void TryGetValue(string key, out object value)
-        {
-            _parameters.TryGetValue(key, out value);
-        }
+		public T GetValue<T>(string key)
+		{
+			this.TryGetValue(key, out var obj);
+			return (T)obj;
+		}
 
-        public T GetValue<T>(string key)
-        {
-            TryGetValue(key, out var obj);
-            return (T)obj;
-        }
-    }
+		public void TryGetValue(string key, out object value)
+		{
+			this._parameters.TryGetValue(key, out value);
+		}
+	}
 }

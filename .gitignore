@@ -3,6 +3,7 @@
 *.user
 
 #build folder
-*/bin/*
-*/obj/*
-*/bin_test/*
+/bin/
+/obj/
+/bin_test/
+/test/

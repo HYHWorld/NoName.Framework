@@ -1,46 +1,47 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+
 using NoName.Framework.Core.Resource.LocalResource;
 
 namespace NoName.Framework.Core.Resource
 {
-    public class ResourceLocator
-    {
+	public class ResourceLocator
+	{
+		public static readonly ResourceLocator Instance = new ResourceLocator();
 
-        public static readonly ResourceLocator Instance = new ResourceLocator();
+		private SharedResourceLocator _sharedResource;
 
-        private ResourceLocator()
-        {
-        }
+		private ResourceLocator()
+		{
+			this._sharedResource = new SharedResourceLocator();
+		}
 
-        public SharedResourceLocator SharedResource = new SharedResourceLocator();
+		public class SharedResourceLocator
+		{
+			private IList<ISharedResource> resources;
 
-        public class SharedResourceLocator
-        {
-            private IList<ISharedResource> resources;
+			public SharedResourceLocator()
+			{
+				this.LoadResource();
+			}
 
-            public SharedResourceLocator()
-            {
-                LoadResource();
-            }
-            private void LoadResource()
-            {
-                //
-                foreach (var typeInfo in GetType().Assembly.DefinedTypes)
-                {
-                    var res = typeInfo.GetInterfaces().FirstOrDefault(t => t == typeof(ISharedResource));
-                    if (res == null) continue;
-                    resources.Add((ISharedResource)Activator.CreateInstance(res));
-                }
+			public T Resolve<T>()
+			{
+				return (T)this.resources.FirstOrDefault(t => t is T);
+			}
 
-                foreach (var res in resources) res.InitializeResource();
-            }
+			private void LoadResource()
+			{
+				foreach (var typeInfo in this.GetType().Assembly.DefinedTypes)
+				{
+					var res = typeInfo.GetInterfaces().FirstOrDefault(t => t == typeof(ISharedResource));
+					if (res == null) continue;
+					this.resources.Add((ISharedResource)Activator.CreateInstance(res));
+				}
 
-            public T Resolve<T>()
-            {
-                return (T)resources.FirstOrDefault(t => t is T);
-            }
-        }
-    }
+				foreach (var res in this.resources) res.InitializeResource();
+			}
+		}
+	}
 }

@@ -1,7 +1,7 @@
 ﻿namespace NoName.Framework.Core.Resource.PublicResource
 {
-    public interface IUniqueResourceFactory
-    {
-        IUniqueResource GenerateUniqueResource();
-    }
+	public interface IUniqueResourceFactory
+	{
+		IUniqueResource GenerateUniqueResource();
+	}
 }

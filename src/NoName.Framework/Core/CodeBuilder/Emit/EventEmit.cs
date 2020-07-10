@@ -1,7 +1,6 @@
 ﻿namespace NoName.Framework.Core.CodeBuilder.Emit
 {
-    public class EventEmit
-    {
-
-    }
+	public class EventEmit
+	{
+	}
 }

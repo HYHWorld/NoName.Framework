@@ -1,6 +1,6 @@
 ﻿namespace NoName.Framework.Engine.Service
 {
-    public interface IServiceClient
-    {
-    }
+	public interface IServiceClient
+	{
+	}
 }

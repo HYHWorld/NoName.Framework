@@ -1,6 +1,6 @@
 ﻿namespace NoName.Framework.Core.Util.Module
 {
-    class NameScope
-    {
-    }
+	public class NameScope
+	{
+	}
 }

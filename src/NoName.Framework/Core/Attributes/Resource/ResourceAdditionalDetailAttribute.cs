@@ -2,8 +2,7 @@
 
 namespace NoName.Framework.Core.Attributes.Resource
 {
-    public class ResourceAdditionalDetailAttribute : Attribute
-    {
-
-    }
+	public class ResourceAdditionalDetailAttribute : Attribute
+	{
+	}
 }

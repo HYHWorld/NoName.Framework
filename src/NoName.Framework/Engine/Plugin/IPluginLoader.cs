@@ -1,7 +1,7 @@
 ﻿namespace NoName.Framework.Engine.Plugin
 {
-    public interface IPluginLoader
-    {
-        IPlugin LoadPlugin();
-    }
+	public interface IPluginLoader
+	{
+		IPlugin LoadPlugin();
+	}
 }

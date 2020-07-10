@@ -2,14 +2,14 @@
 
 namespace NoName.Framework.Core.Attributes
 {
-    public class ConfigItemAttribute : Attribute
-    {
-        public const String DefaultConfigPath = @".\Config";
+	public class ConfigItemAttribute : Attribute
+	{
+		public const string DefaultConfigPath = @".\Config";
 
-        public String ConfigName { get; set; }
+		public string ConfigFileExtension { get; set; }
 
-        public String ConfigPath { get; set; }
+		public string ConfigName { get; set; }
 
-        public String ConfigFileExtension { get; set; }
-    }
+		public string ConfigPath { get; set; }
+	}
 }
